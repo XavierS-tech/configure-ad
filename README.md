@@ -71,7 +71,7 @@ User jane_admin as your admin account from now on
 
 </p>
 <p>
-etup Remote Desktop for non-administrative users on Client-1
+Setup Remote Desktop for non-administrative users on Client-1
 —
 Log into Client-1 as mydomain.com\jane_admin
 Open system properties
