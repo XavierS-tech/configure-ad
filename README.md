@@ -54,7 +54,15 @@ Restart and then log back into DC-1 as user: mydomain.com\labuser
 <<img width="1232" height="815" alt="image" src="https://github.com/user-attachments/assets/c0007202-cbb2-48ac-94af-98f41289bb78" />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a Domain Admin user within the domain
+—
+In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+Create a new OU named “_ADMINS”
+Create a new employee named “Jane Doe” (same password) with the username of “jane_admin” / Cyberlab123!
+Add jane_admin to the “Domain Admins” Security Group
+Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”
+User jane_admin as your admin account from now on
+
 </p>
 <br />
 
