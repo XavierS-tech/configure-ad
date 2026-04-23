@@ -40,7 +40,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Active Directory
+—
+Login to DC-1 and install Active Directory Domain Services
+Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+Restart and then log back into DC-1 as user: mydomain.com\labuser
+
+
 </p>
 <br />
 
